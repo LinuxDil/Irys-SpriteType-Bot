@@ -34,7 +34,7 @@ class Irys:
             flush=True
         )
 
-def welcome(self):
+    def welcome(self):
         figlet = Figlet(font='ansi_shadow')
         banner_lines = figlet.renderText('BG WIN').splitlines()
         term_width = shutil.get_terminal_size().columns
